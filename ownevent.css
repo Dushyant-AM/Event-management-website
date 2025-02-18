@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.container1 {
+    height: 45px;
+    width: 100%;
+    padding: 5px;
+    animation-name: moving-text;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes moving-text{
+    0%{background-color: darkblue;}
+    20%{background-color: blueviolet;}
+    40%{background-color: darkcyan;}
+    60%{background-color: rgb(4, 70, 26);}
+    80%{background-color: rgb(36, 53, 6);}
+    100%{background-color: rgb(9, 65, 43);}
+}
+.container1{
+    font-size: larger;
+    font-family: cursive;
+}
+
+/* NAVBAR STYLES*/
+.bg-custom{
+    background:linear-gradient(40deg,brown,gray);
+}
